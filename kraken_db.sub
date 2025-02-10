@@ -1,8 +1,8 @@
 executable = kraken_db.sh
 
-log = download_kraken.log
-error = download_kraken.err
-output = download_kraken.out
+log = logs/download_kraken.log
+error = logs/download_kraken.err
+output = logs/download_kraken.out
 
 request_cpus   = 4
 request_memory = 16GB

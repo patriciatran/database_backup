@@ -1,0 +1,15 @@
+executable = metacompare2.sh
+
+log = logs/download_metacompare.log
+error = logs/download_metacompare.error
+output = logs/download_metacompare.out
+
+request_cpus   = 4
+request_memory = 16GB
+request_disk   = 5GB
+
+requirements = (HasChtcProjects == true)
+
+#should_transfer_files = no
+
+queue

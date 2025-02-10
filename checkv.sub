@@ -3,7 +3,7 @@
 # Provide HTCondor with the name of your .sif file and universe information
 container_image = file:///projects/bacteriology_tran_data/apptainer/checkV.sif
 
-executable = checkv.sub
+executable = checkv.sh
 
 
 log = logs/checkv.log
