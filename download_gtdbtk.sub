@@ -1,0 +1,15 @@
+executable = download_gtdbtk.sh
+
+log = download_gtdbtk.log
+error = download_gtdbtk.err
+output = download_gtdbtk.out
+
+request_cpus   = 4
+request_memory = 16GB
+request_disk   = 5GB
+
+requirements = (HasChtcProjects == true)
+
+#should_transfer_files = no
+
+queue

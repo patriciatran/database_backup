@@ -1,0 +1,16 @@
+container_image = file:///projects/bacteriology_tran_data/apptainer/taxmyphage.sif
+
+executable = taxmyphage.sh
+		
+log = logs/taxmyphage_db.log
+error = logs/taxmyphage_db.err
+output = logs/taxmyphage_db.out
+
+requirements = (HasCHTCStaging == true) && (OpSysMajorVer > 7) && (HasChtcProjects == true)
+
+request_cpus = 4
+request_memory = 16GB
+request_disk = 16GB
+   
+queue
+
